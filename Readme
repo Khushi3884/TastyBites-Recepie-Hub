@@ -1,0 +1,21 @@
+Installation
+1. Clone the Repository
+Clone this repository to your local machine:
+
+bash
+Copy code
+git clone https://github.com/yourusername/TastyBites-Recipe-Hub.git
+2. Replace the API Key
+Open the script.js file in a code editor.
+Replace YOUR_API_KEY with your actual Spoonacular API key.
+3. Open the Application
+Once the API key is set, open index.html in your preferred browser to start using the app.
+
+bash
+Copy code
+open index.html
+Usage
+--> Upon opening the app, you will see a search bar where you can enter the name of a recipe (e.g., "pizza", "pasta").
+--> As you type, the app will make API requests to Spoonacular and fetch matching recipes.
+--> The recipes will be displayed as cards, each containing an image, title, and a link to the full recipe.
+--> Clicking on the "View Recipe" link will open the full recipe page on Spoonacular.
